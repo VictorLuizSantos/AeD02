@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "questao01.h"
+#include "questao02.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    questao02();
     return 0;
 }

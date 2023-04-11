@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1681166657 source:c:\users\victo\desktop\aed02\lista01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"questao01.h"
+	"questao02.h"
+
+1681165388 c:\users\victo\desktop\aed02\lista01\questao01.h
+
+1681167527 source:c:\users\victo\desktop\aed02\lista01\questao01.c
+	<stdio.h>
+	<stdlib.h>
+	"questao01.h"
+
+1681166657 c:\users\victo\desktop\aed02\lista01\questao02.h
+
+1681167527 source:c:\users\victo\desktop\aed02\lista01\questao02.c
+	<stdio.h>
+	<stdlib.h>
+	"questao02.h"
+
