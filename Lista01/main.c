@@ -26,7 +26,7 @@
 
 int main()
 {
-   questao24();
+   questao23();
 
     return 0;
 }

@@ -1,29 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdbool.h>
 #include "questao10.h"
 
-void entrada10(char *senha) {
-    printf("\n\nDigite senha de 10 caracteres: \n");
+/*void upper (char **senha, char **senhaMaiuscula) {
+    int i  = 0;
+    while (senha[i] != "/0") {
+        senhaMaiuscula[i] = toupper(senha[i]);
+        i++;
+    }
+    senhaMaiuscula[i] =  "/0";
+}*/
+
+void entrada10(char **senha) {
+    printf("\n\nDigite senha de ate 20 caracteres: \n");
     scanf("%s", senha);
 }
 
-void processamento10(char *senha) {
-    *senha = tolower(*senha);
+void processamento10 (char **senha, bool  *validacao) {
+
+    //void upper(char **senha, char senhaMaiuscula);
+
+    if (strcmp(senha, "LINGUAGEMC") == 0)  {
+       *validacao = true;
+    }
+    else {
+        *validacao = false;
+    }
 }
 
-void saida10(char senha) {
-    if (*senha == "linguagemc") {
+void saida10(bool validacao) {
+    if (validacao) {
     printf("\nSenha valida\n");
     }
     else {
     printf("\nSenha invalida\n");
     }
 }
+
 void questao10(void) {
 
-    char senha[10];
+    char senha[20];
+    //char senhaMaiuscula[20];
+    bool validacao;
 
     entrada10(&senha);
-    processamento10(&senha);
-    saida10(senha);
+    processamento10(&senha, &validacao);
+    saida10(validacao);
 }

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1681427656 source:c:\users\victo\desktop\aed02\lista01\main.c
+1681503404 source:c:\users\victo\desktop\aed02\lista01\main.c
 	<stdio.h>
 	<stdlib.h>
 	"questao01.h"
@@ -138,4 +138,63 @@
 	<stdio.h>
 	<stdlib.h>
 	"questao15.h"
+
+1681427729 source:c:\users\victo\desktop\aed02\lista01\questao07.c
+	<stdio.h>
+	<stdlib.h>
+	"questao07.h"
+
+1681427486 source:c:\users\victo\desktop\aed02\lista01\questao16.c
+	<stdio.h>
+	<stdlib.h>
+	"questao16.h"
+
+1681427498 source:c:\users\victo\desktop\aed02\lista01\questao17.c
+	<stdio.h>
+	<stdlib.h>
+	"questao17.h"
+
+1681427509 source:c:\users\victo\desktop\aed02\lista01\questao18.c
+	<stdio.h>
+	<stdlib.h>
+	"questao18.h"
+
+1681427519 source:c:\users\victo\desktop\aed02\lista01\questao19.c
+	<stdio.h>
+	<stdlib.h>
+	"questao19.h"
+
+1681427536 source:c:\users\victo\desktop\aed02\lista01\questao20.c
+	<stdio.h>
+	<stdlib.h>
+	"questao20.h"
+
+1681427552 source:c:\users\victo\desktop\aed02\lista01\questao21.c
+	<stdio.h>
+	<stdlib.h>
+	"questao21.h"
+
+1681503040 source:c:\users\victo\desktop\aed02\lista01\questao22.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"questao22.h"
+
+1681427585 source:c:\users\victo\desktop\aed02\lista01\questao23.c
+	<stdio.h>
+	<stdlib.h>
+	"questao23.h"
+
+1681427599 source:c:\users\victo\desktop\aed02\lista01\questao24.c
+	<stdio.h>
+	<stdlib.h>
+	"questao24.h"
+
+1681502830 source:c:\users\victo\desktop\aed02\lista01\questao10.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+	"questao10.h"
 
