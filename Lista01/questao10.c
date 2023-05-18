@@ -46,7 +46,12 @@ void questao10(void) {
     //char senhaMaiuscula[20];
     bool validacao;
 
+<<<<<<< HEAD
     entrada10(&senha);
     processamento10(&senha, &validacao);
+=======
+    entrada10(senha);
+    processamento10(senha, &validacao);
+>>>>>>> df2501b40f0659aefb27314d513fd6670e693536
     saida10(validacao);
 }

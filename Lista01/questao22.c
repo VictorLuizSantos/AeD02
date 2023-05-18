@@ -25,10 +25,10 @@ void processamento22(bool *validador, int *eleitores, int *maisVotado) {
 void saida22(char cidade, bool validador) {
 
     if  (validador) {
-    printf("\nHaverá segundo turno em %s\n", cidade);
+    printf("\nHavera segundo turno em %s\n", cidade);
     }
     else {
-         printf("\nNao haverá segundo turno em %s\n", cidade);
+         printf("\nNao havera segundo turno em %s\n", cidade);
     }
 }
 void questao22(void) {
