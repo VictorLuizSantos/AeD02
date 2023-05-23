@@ -132,11 +132,68 @@ void selecao() {
     printf(" |\n---------------------------");
 }
 
+//------------------QUICKSORT------------------
+
+void quicksort() {
+
+}
+
+//------------------MERGESORT------------------
+
+void mergesort() {
+
+    int ordenar[SIZE];
+    int aux [SIZE];
+    int meio = SIZE / 2;
+    int fim = SIZE - 1;
+    int i = 0, l = 0, j = meio + 1, k  = 0;
+
+    printf("\nDigite 6 elementos do vetor, apertando ENTER em cada um apos digitar: \n");
+
+     for (i = 0; i < SIZE; i++) {
+    scanf("%d", &ordenar[i]);
+    }
+
+    printf("Vetor para ordenar: \n---------------------------\n");
+
+    for (i = 0; i < SIZE; i++) {
+        printf(" | %d", ordenar[i]);
+    }
+
+    printf(" |\n---------------------------");
+
+    while (i <= meio && j <=  fim) {
+        if (ordenar[i] <= ordenar[j]) {
+            aux[k++] = ordenar[i++];
+        }
+        else {
+            aux[k++] = ordenar[j++];
+        }
+    }
+    while (i <= meio) {
+        aux[k++] = ordenar[i++];
+    }
+    while (j <= fim) {
+        aux[k++] = ordenar[j++];
+    }
+
+    for (i = l, k = 0; i <= fim; i++, k++) {
+        ordenar[i] = aux[k];
+    }
+
+    printf("\n\nVetor ordenado: \n---------------------------\n");
+
+    for (i = 0; i < SIZE; i++) {
+        printf(" | %d", ordenar[i]);
+    }
+    printf(" |\n---------------------------");
+
+}
 
 //------------------MAIN------------------
 int main()
 {
-    selecao();
+    mergesort();
 
     return 0;
 }
